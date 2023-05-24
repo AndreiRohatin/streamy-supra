@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  frontend:
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+  roulette:
+    build:
+      context: ./backend
+      dockerfile: ./roulette/Dockerfile
+  proxy:
+    build: ./backend/proxy
+    ports:
+      - "8797:80"

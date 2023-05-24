@@ -1,0 +1,28 @@
+$primary-white: #221e22;
+$primary-black: #221e22;
+$primary-grey: #363535;
+
+/*Text*/
+$color-text-primary: #26272f;
+$color-text-green: #2CF529;
+$color-text-blue: #2973F5;
+
+/*Backgrounds*/
+$dark-black: #000000;
+
+/* Animation */
+$transition-animation-duration: 200ms;
+
+/* Buttons */
+$blue-btn: #1F709C;
+$danger-btn: #AA5234;
+$attention-btn: #C41C1C;
+$grey-btn: #7C7979;
+
+/* Shadows */
+$primary-shadow: rgba(30, 30, 30, 0.08);
+$light-shadow: rgba(30, 30, 30, 0.1);
+
+/* Borders */
+$light-grey: #363535;
+

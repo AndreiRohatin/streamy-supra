@@ -1,0 +1,22 @@
+@import "../../themes/default.module.css";
+
+.Text {
+  font-size: 1rem;
+  color: white;
+}
+
+.TextGreen {
+  font-size: 1rem;
+  color: $color-text-green;
+}
+
+.TextBlue {
+  font-size: 1rem;
+  color: $color-text-blue;
+}
+
+.TitleWhiteExtraBig {
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}

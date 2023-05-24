@@ -1,0 +1,61 @@
+@import "../../../../themes/default.module.css";
+
+.Container {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  padding: rem(20px) rem(10px);
+
+  background: $primary-white;
+}
+
+.MessagesContainer {
+  flex-grow: 1;
+
+  margin-bottom: rem(10px);
+  padding: rem(12px);
+
+  border-radius: 5px;
+
+  box-shadow: 0 -2px 8px -4px $light-shadow;
+  border: 2px solid $light-grey;
+}
+
+.MessageContainer .sent{
+  background-color: #0075FF !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 10px !important;
+}
+
+
+.MessageContainer .received{
+  background-color: #31343A !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 10px !important;
+}
+
+.MessagesWrapper {
+  margin-top: rem(10px);
+}
+
+.Message {
+  margin: rem(5px) 0;
+}
+
+.MessageInputWrapper {
+  display: flex;
+  flex-flow: row;
+  background-color: #24282D;
+}
+
+.SearchingInfo:not(.Found) span {
+  animation: fade 1s infinite;
+}
+
+@keyframes fade {
+  from { opacity: 1; }
+  to { opacity: 0.5; }
+}
